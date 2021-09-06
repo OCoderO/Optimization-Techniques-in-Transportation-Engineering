@@ -1,0 +1,7 @@
+# List of tests
+
+1-trivial.txt
+2-braessclass.txt
+3-braessswap.txt
+4-dialgrid.txt
+5-SiouxFalls.txt
