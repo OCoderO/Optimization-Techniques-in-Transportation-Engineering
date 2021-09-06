@@ -1,9 +1,0 @@
-# Trivial network
-#   0 --> 1
-#
-# Tail,head,cost,capacity
-
-0,1,1,10
-
-
-

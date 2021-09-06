@@ -1,8 +1,0 @@
-# Trivial network
-#   0 --> 1
-#
-# Entry here in the matrix shows the 
-
-0,1
-0,0
-
