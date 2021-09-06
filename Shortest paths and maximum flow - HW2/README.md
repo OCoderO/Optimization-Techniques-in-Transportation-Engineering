@@ -1,1 +1,13 @@
-This Python code involves implementing a shortest path algorithm -- the code is implementing an algorithms finding the shorest path and max flow question.
+Question 1
+The code implement one of the one-to-all shortest path algorithms learned from class. In network.py, this is done in with the shortestPath algorithm method, which takes one argument (aka the origin node). This method should return a tuple containing two lists: a list of backnodes (the path labels, indicating the previous node in the shortest path) and a list of cost labels indicating the cost on the shortest path to each node from origin.
+
+The network.py file has the seted up lists, and shows how the code should be returned when your code is complete. To access the cost of the link between nodes i and j,  use self.cost[i][j]. These values are already set up by the code which reads the test files, and you should not need to change them. You still need to use the adjacency matrix to determine whether such a link even exists in the first place, from your standpoint you should not assume anything about the values of self.cost[i][j] if there is no link from i to j. Finally, as the "default" values for the labels, use the built-in constants utils.NO_PATH_EXISTS and utils.INFINITY, rather than defining your own values.
+
+The test instances and networks can be viewed by browsing in the tests directory. All of the tests are plain text files which can be opened by any decent text editor (Windows Notepad sometimes struggles with line breaks). The test file contains references to the network files themselves (adjacency matrix and link data), and to the correct answers. You may find these useful in debugging your code.
+
+Question 2
+This was an optional coding question which has the code implement one of the maximum flow algorithms. This was done and can be found in maxFlow
+
+Look at the maxFlow method of network.py. This method should return a tuple containing a numeric value (the total amount of flow shipped from the source to the sink) and the corresponding flow values. The flow values are represented using a 'matrix' (actually a list of lists) flow, where flow[i][j] is the amount of flow on the link (i,j). (If no such link exists, flow[i][j] should equal zero.). The provided file already sets up this matrix for you, and shows you what your code should return when done.
+
+To access the capacity of the link between nodes i and j, use self.capacity[i][j]. These values are already set up when the test files are read, and you should not need to change them. You still need to use the adjacency matrix to determine whether such a link even exists in the first place, from your standpoint you should not assume anything about the values of self.capacity[i][j] if there is no link from i to j.
