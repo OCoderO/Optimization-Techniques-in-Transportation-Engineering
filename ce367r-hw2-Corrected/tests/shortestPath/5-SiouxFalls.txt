@@ -1,0 +1,35 @@
+# Points possible
+10
+
+# Network and link data file
+tests/networks/SiouxFalls_network.txt
+tests/networks/SiouxFalls_linkdata.txt
+
+# Source node
+1
+
+# Answer (backnode and cost labels for each node in turn)
+1,6
+-1,0
+0,10
+4,11
+5,9
+1,5
+7,10
+5,7
+4,14
+15,16
+3,17
+2,14
+11,17
+10,21
+18,19
+7,12
+15,14
+6,12
+16,16
+17,16
+19,22
+19,21
+23,23
+12,21

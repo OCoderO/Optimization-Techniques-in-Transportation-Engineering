@@ -1,0 +1,15 @@
+# Points possible
+4
+
+# Network and link data file
+tests/networks/braess_network.txt
+tests/networks/braess_linkdata.txt
+
+# Origin
+2
+
+# Answer (backnode and cost labels for each node in turn)
+-1,99999
+-1,99999
+-1,0
+2,1

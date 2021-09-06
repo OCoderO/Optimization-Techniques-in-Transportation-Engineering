@@ -1,0 +1,13 @@
+# Points possible
+2
+
+# Network and link data file
+tests/networks/trivial_network.txt
+tests/networks/trivial_linkdata.txt
+
+# Origin
+0
+
+# Answer (backnode and cost labels for each node in turn)
+-1,0
+0,1
